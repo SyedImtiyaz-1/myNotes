@@ -6,7 +6,7 @@
 
 body {
     background-color: rgb(22, 21, 21);
-    /* cursor:url; */
+    /* cursor: url(img/notePencil.png),; */
 }
 
 .main {
@@ -44,16 +44,17 @@ body {
     border-radius: 15px;
     height: 4vh;
     position: relative;
-    font-size: 2vh
+    font-size: 2vh;
+    padding: 2.8px;
 }
 
 button {
-    width: 3vw;
+    width: 3.5vw;
     border-radius: 15px;
-    height: 4vh;
+    height: 4.7vh;
     position: absolute;
     margin-left: 22vw;
-    margin-top: 2.5px;
+    margin-top: 2px;
 }
 
 button:hover{
@@ -79,4 +80,12 @@ li{
     background-color: rgb(46, 43, 43);
     margin-top: 1vh;
     border-radius: 15px;
+}
+.fa-ellipsis-h{
+    color: white;
+    margin-right: 2.5vw;
+    position: relative;
+    float: right;
+    font-size: 25px;
+    bottom: 35px;
 }
